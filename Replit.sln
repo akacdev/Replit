@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Replit.GraphQL", "Replit.GraphQL\Replit.GraphQL.csproj", "{74497E4F-8DD1-4EA2-AD14-B70D103CEA89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Example\Example.csproj", "{84274794-69F5-4A9E-84BB-17CF7DEA5E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74497E4F-8DD1-4EA2-AD14-B70D103CEA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74497E4F-8DD1-4EA2-AD14-B70D103CEA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74497E4F-8DD1-4EA2-AD14-B70D103CEA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74497E4F-8DD1-4EA2-AD14-B70D103CEA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84274794-69F5-4A9E-84BB-17CF7DEA5E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84274794-69F5-4A9E-84BB-17CF7DEA5E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84274794-69F5-4A9E-84BB-17CF7DEA5E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84274794-69F5-4A9E-84BB-17CF7DEA5E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6595134C-3DFE-4381-9CFB-1E640E3C73DD}
+	EndGlobalSection
+EndGlobal

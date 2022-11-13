@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <!--Basic Information-->
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <PackageId>Replit.GraphQL</PackageId>
+    <Product>Replit.GraphQL</Product>
+    <Authors>akac</Authors>
+    <Company>akac</Company>
+    <Description>An async and lightweight C# library for interacting with the Replit GraphQL API.</Description>
+    <PackageTags>replit; repler; api; client; replit-driver; driver; replit-graphql; graphql</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README_NuGet.md</PackageReadmeFile>
+
+    <!--Version-->
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+
+    <!--Github-->
+    <PackageProjectUrl>https://github.com/actually-akac/Replit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/actually-akac/Replit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    
+    <!--Compiler Options-->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!--Miscellaneous-->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <NeutralLanguage>en</NeutralLanguage>
+    
+  </PropertyGroup>
+
+  <!--Exclude documentation warnings-->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <!--Include the README and the package icon files-->
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    
+    <None Include="README_NuGet.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
