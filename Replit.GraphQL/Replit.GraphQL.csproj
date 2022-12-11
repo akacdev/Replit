@@ -10,7 +10,7 @@
     <Description>An async and lightweight C# library for interacting with the Replit GraphQL API.</Description>
     <PackageTags>replit; repler; api; client; replit-driver; driver; replit-graphql; graphql</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageReadmeFile>README_NuGet.md</PackageReadmeFile>
+    <PackageReadmeFile>NuGet.md</PackageReadmeFile>
 
     <!--Version-->
     <Version>1.0.0</Version>
@@ -50,8 +50,8 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    
-    <None Include="README_NuGet.md">
+
+    <None Include="NuGet.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
